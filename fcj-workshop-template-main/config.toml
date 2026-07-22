@@ -1,6 +1,6 @@
-baseURL = "https://solen2554.github.io/fcaj-workshop/"
-relativeURLs = false
-canonifyURLs = false
+baseURL =  "https://solen2554.github.io/fcaj-workshop/"
+relativeURLs = true
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
@@ -20,7 +20,10 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
+  # Avatar config
+  avatar = "avatar.jpg"
+
 [Languages]
 [Languages.en]
 title = "Internship Report"
