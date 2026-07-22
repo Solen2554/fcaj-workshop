@@ -1,125 +1,55 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Sự kiện 3"
+date: 2026-06-06
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo cáo phản ánh: "First Cloud AI Journey - Community Sharing Day"
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục tiêu sự kiện
+- Chia sẻ kiến thức thực tế về Cloud, AI và DevOps.  
+- Giới thiệu công nghệ hiện đại: Docker, GraphRAG, AWS WebSocket, Machine Learning cho an ninh mạng.  
+- Học hỏi kinh nghiệm phát triển sự nghiệp từ chuyên gia.  
+- Gắn kết cộng đồng FCJ qua các buổi chia sẻ kỹ thuật.  
 
-### Mục Đích Của Sự Kiện
+### Nội dung trình bày
+- **Từ IT Helpdesk đến Senior Sysadmin** – Trần Trung Vinh  
+- **Xây dựng ứng dụng GraphRAG với Amazon Bedrock & Neptune** – Việt Phát  
+- **Nghệ thuật teamwork hiệu quả** – Trương Huy Phước  
+- **Multiplayer trên Cloud với AWS WebSockets** – Nguyễn Quốc Bảo  
+- **NIDS dựa trên Machine Learning trên AWS** – Lê Hoàng Gia Đại  
+- **Docker – Công nghệ Containerization** – Huỳnh Bảo  
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Điểm nổi bật
+- **Hành trình Sysadmin**: nhấn mạnh Linux, Networking, Troubleshooting, học tập liên tục.  
+- **GraphRAG**: giải thích RAG, multi-hop reasoning, demo với Bedrock & Neptune.  
+- **Teamwork**: bốn nguyên tắc — mục tiêu rõ ràng, phân công đúng người, giao tiếp cởi mở, trách nhiệm cá nhân.  
+- **AWS WebSockets**: kiến trúc multiplayer với API Gateway, Lambda, DynamoDB.  
+- **NIDS với ML**: kết hợp AWS WAF và Machine Learning để phát hiện xâm nhập.  
+- **Docker**: so sánh VM và Container, ứng dụng trong CI/CD và microservices.  
 
-### Danh Sách Diễn Giả
+### Kiến thức & kỹ năng đạt được
+- **Kỹ năng mềm**: teamwork, giao tiếp, định hướng nghề nghiệp.  
+- **Kỹ năng kỹ thuật**: Docker, GraphRAG, AWS WebSocket, ML cho bảo mật.  
+- **Phát triển sự nghiệp**: học sâu AWS & DevOps, thực hành Docker, khám phá Generative AI.  
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Ứng dụng thực tế
+- Dùng Docker để đóng gói và triển khai dự án.  
+- Áp dụng DevOps & IaC trong phát triển phần mềm.  
+- Xây dựng chatbot AI với Bedrock & GraphRAG.  
+- Thiết kế ứng dụng realtime bằng AWS WebSocket.  
+- Tích hợp ML vào giải pháp bảo mật Cloud.  
+- Rèn luyện teamwork qua dự án nhóm.  
 
-### Nội Dung Nổi Bật
+### Trải nghiệm sự kiện
+Sự kiện mang lại kiến thức thực tiễn, truyền cảm hứng học tập liên tục và xây dựng dự án thực tế. Các bài trình bày vừa chuyên sâu vừa gần gũi, dễ áp dụng.  
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+**Điểm đáng nhớ**: hành trình Sysadmin, GraphRAG mở rộng góc nhìn về AI, Docker giúp hiểu containerization, AWS WebSocket minh họa multiplayer realtime, ML-based NIDS cho thấy AI ứng dụng trong bảo mật, teamwork nhấn mạnh vai trò kỹ năng mềm.  
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+**Kết nối cộng đồng**: giao lưu với mentor, diễn giả, thành viên FCJ; học hỏi kinh nghiệm học tập, xây dựng dự án, phát triển sự nghiệp.  
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+**Bài học rút ra**: công nghệ phải đi đôi với thực hành; Docker & DevOps là kỹ năng thiết yếu; AI ứng dụng rộng rãi; teamwork quan trọng ngang kỹ thuật; học tập liên tục và portfolio mạnh mở ra nhiều cơ hội nghề nghiệp.  
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
-
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
-
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
-
-### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Tổng kết: **Community Sharing Day** mang lại kiến thức thực tiễn, mở rộng hiểu biết về công nghệ hiện đại, đồng thời truyền cảm hứng để tôi tiếp tục học tập, xây dựng dự án thực tế và chuẩn bị tốt hơn cho sự nghiệp Cloud Engineer.
