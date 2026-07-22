@@ -1,59 +1,40 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+title: "Tuần 11 Worklog"
+date: 2026-06-26
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu Tuần 11
+- Hoàn thiện các phần còn thiếu của bài thực tập.
+- Kiểm tra lại hệ thống đã triển khai.
+- Sửa các lỗi phát sinh trong quá trình thử nghiệm.
+- Chuẩn bị nội dung cho báo cáo thực tập.
 
+### Công việc thực hiện trong tuần
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Link tham khảo |
+|------|-----------|--------------|-----------------|----------------|
+| Thứ Hai | Ôn lại toàn bộ các nhiệm vụ thực tập và xác định phần còn thiếu | 2026-06-26 | 2026-06-26 | https://aws.amazon.com/documentation |
+| Thứ Ba | Hoàn thành các công việc chưa xong trong EC2 và S3 | 2026-06-27 | 2026-06-27 | https://console.aws.amazon.com/ec2 |
+| Thứ Tư | Sửa lỗi cấu hình trong RDS | 2026-06-28 | 2026-06-28 | https://console.aws.amazon.com/rds |
+| Thứ Năm | Kiểm tra tích hợp hệ thống và xác định lỗi | 2026-06-29 | 2026-06-29 | https://aws.amazon.com/solutions |
+| Thứ Sáu | Khắc phục lỗi và cải thiện độ ổn định hệ thống | 2026-06-30 | 2026-06-30 | https://docs.aws.amazon.com |
+| Thứ Bảy | Chuẩn bị bản nháp nội dung báo cáo thực tập | 2026-07-01 | 2026-07-01 | https://aws.amazon.com |
 
-### Mục tiêu tuần 11:
+### Thành tựu Tuần 11
+- Hoàn thành các nhiệm vụ còn thiếu.
+- Sửa lỗi trong cấu hình EC2, S3 và RDS.
+- Cải thiện độ ổn định và hiệu suất hệ thống.
+- Chuẩn bị bản nháp báo cáo thực tập.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kiến thức và kỹ năng đạt được
+- Kiến thức về xử lý sự cố dịch vụ AWS.
+- Kỹ năng sửa lỗi cấu hình.
+- Kinh nghiệm kiểm tra và debug hệ thống.
+- Hiểu biết về chuẩn bị tài liệu báo cáo.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch Tuần tới
+- Hoàn thiện báo cáo thực tập.
+- Tổng hợp toàn bộ kết quả đạt được.
+- Nộp báo cáo cho người hướng dẫn.
+- Hoàn tất chương trình thực tập.

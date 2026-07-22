@@ -1,59 +1,40 @@
 ---
-title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+title: "Tuần 3 Worklog"
+date: 2026-05-01
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu Tuần 3
+- Tìm hiểu cơ bản về Amazon S3.
+- Thực hành tạo và quản lý S3 Bucket.
+- Tải lên và tổ chức dữ liệu trong S3.
+- Trao đổi với người hướng dẫn về các trường hợp sử dụng S3.
 
+### Công việc thực hiện trong tuần
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Link tham khảo |
+|------|-----------|--------------|-----------------|----------------|
+| Thứ Hai | Đọc tài liệu AWS về S3 cơ bản | 2026-05-01 | 2026-05-01 | https://docs.aws.amazon.com/s3 |
+| Thứ Ba | Tạo bucket đầu tiên trong AWS Console | 2026-05-02 | 2026-05-02 | https://console.aws.amazon.com/s3 |
+| Thứ Tư | Tải lên các file mẫu vào bucket | 2026-05-03 | 2026-05-03 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html |
+| Thứ Năm | Thực hành cấu trúc thư mục và quản lý object | 2026-05-04 | 2026-05-04 | https://aws.amazon.com/s3/features |
+| Thứ Sáu | Cấu hình quyền bucket và kiểm tra truy cập | 2026-05-05 | 2026-05-05 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-overview.html |
+| Thứ Bảy | Trao đổi với người hướng dẫn về các trường hợp sử dụng S3 | 2026-05-06 | 2026-05-06 | https://aws.amazon.com/s3 |
 
-### Mục tiêu tuần 3:
+### Thành tựu Tuần 3
+- Tạo và quản lý thành công nhiều bucket S3.
+- Biết cách tải lên, tổ chức và quản lý file trong S3.
+- Hiểu rõ tầm quan trọng của quyền bucket và kiểm soát truy cập.
+- Nắm được các trường hợp sử dụng S3 trong thực tế.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kiến thức và kỹ năng đạt được
+- Kiến thức về khái niệm lưu trữ S3.
+- Kỹ năng tạo và quản lý bucket.
+- Hiểu về vòng đời object và cấu trúc thư mục.
+- Kinh nghiệm về kiểm soát truy cập và quyền trong S3.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 3:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch Tuần tới
+- Bắt đầu tìm hiểu Amazon RDS.
+- Thực hành tạo cơ sở dữ liệu thử nghiệm trong RDS.
+- Kết nối ứng dụng với RDS để quản lý dữ liệu.
+- Ôn lại kiến thức về mạng và bảo mật AWS.

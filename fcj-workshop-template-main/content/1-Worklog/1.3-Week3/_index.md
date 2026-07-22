@@ -1,57 +1,40 @@
 ---
 title: "Week 3 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-05-01
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Week 3 Objectives
+- Explore the fundamentals of Amazon S3.
+- Practice creating and managing S3 Buckets.
+- Upload and organize data within S3.
+- Discuss use cases of S3 with the supervisor.
 
+### Tasks Carried Out This Week
+| Day | Task | Start Date | Completion Date | Reference Link |
+|-----|------|------------|-----------------|----------------|
+| Monday | Read AWS documentation on S3 basics | 2026-05-01 | 2026-05-01 | https://docs.aws.amazon.com/s3 |
+| Tuesday | Created first S3 bucket in AWS Console | 2026-05-02 | 2026-05-02 | https://console.aws.amazon.com/s3 |
+| Wednesday | Uploaded sample files to S3 bucket | 2026-05-03 | 2026-05-03 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html |
+| Thursday | Practiced folder structure and object management | 2026-05-04 | 2026-05-04 | https://aws.amazon.com/s3/features |
+| Friday | Configured bucket permissions and tested access | 2026-05-05 | 2026-05-05 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-overview.html |
+| Saturday | Discussed S3 use cases with supervisor | 2026-05-06 | 2026-05-06 | https://aws.amazon.com/s3 |
 
-### Week 3 Objectives:
+### Week 3 Achievements
+- Successfully created and managed multiple S3 buckets.
+- Learned how to upload, organize, and manage files in S3.
+- Understood the importance of bucket permissions and access control.
+- Gained insights into practical use cases of S3 in real-world applications.
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Knowledge and Skills Gained
+- Knowledge of S3 storage concepts.
+- Skills in creating and managing buckets.
+- Understanding of object lifecycle and folder structures.
+- Experience with access control and permissions in S3.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 3 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Next Week Plan
+- Begin exploring Amazon RDS.
+- Practice creating a test database in RDS.
+- Connect applications to RDS for data management.
+- Review AWS networking and security concepts.

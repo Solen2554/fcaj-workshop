@@ -1,59 +1,40 @@
 ---
-title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+title: "Tuần 5 Worklog"
+date: 2026-05-15
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Mục tiêu Tuần 5
+- Tìm hiểu cơ bản về AWS Lambda.
+- Viết các hàm Lambda đơn giản để xử lý dữ liệu.
+- Kiểm tra hàm Lambda bằng Test Event.
+- Hiểu cách Lambda tích hợp với các dịch vụ AWS khác.
 
+### Công việc thực hiện trong tuần
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Link tham khảo |
+|------|-----------|--------------|-----------------|----------------|
+| Thứ Hai | Đọc tài liệu AWS về Lambda cơ bản | 2026-05-15 | 2026-05-15 | https://docs.aws.amazon.com/lambda |
+| Thứ Ba | Tạo hàm Lambda đầu tiên trong AWS Console | 2026-05-16 | 2026-05-16 | https://console.aws.amazon.com/lambda |
+| Thứ Tư | Viết hàm đơn giản để xử lý dữ liệu đầu vào | 2026-05-17 | 2026-05-17 | https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html |
+| Thứ Năm | Kiểm tra hàm Lambda bằng Test Event | 2026-05-18 | 2026-05-18 | https://aws.amazon.com/lambda/features |
+| Thứ Sáu | Sửa lỗi và cải thiện logic của hàm | 2026-05-19 | 2026-05-19 | https://docs.aws.amazon.com/lambda/latest/dg/troubleshooting.html |
+| Thứ Bảy | Ôn lại cách Lambda tích hợp với các dịch vụ AWS khác | 2026-05-20 | 2026-05-20 | https://aws.amazon.com/lambda |
 
-### Mục tiêu tuần 5:
+### Thành tựu Tuần 5
+- Tạo và triển khai thành công các hàm Lambda.
+- Biết cách kiểm tra hàm bằng Test Event.
+- Cải thiện kỹ năng debug và logic hàm.
+- Hiểu vai trò của Lambda trong kiến trúc serverless.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Kiến thức và kỹ năng đạt được
+- Kiến thức cơ bản về AWS Lambda.
+- Kỹ năng viết và kiểm tra hàm Lambda.
+- Kinh nghiệm debug và cải thiện logic hàm.
+- Hiểu biết về khái niệm serverless computing.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch Tuần tới
+- Bắt đầu tìm hiểu Amazon API Gateway.
+- Kết nối API Gateway với các hàm Lambda.
+- Kiểm tra API bằng Postman.
+- Ôn lại kiến thức về quản lý và bảo mật API.
