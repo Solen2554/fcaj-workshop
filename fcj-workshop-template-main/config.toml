@@ -19,7 +19,7 @@ home = ["HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  avatar = "/images/avatar.jpg"
+  avatar = "/fcaj-workshop/images/avatar.jpg"
 
 # Ngôn ngữ English
 [Languages.en]
@@ -46,7 +46,7 @@ weight = 2
 languageName = "Tiếng Việt"
 
 [Languages.vi.params]
-  avatar = "/images/avatar.jpg"
+  avatar = "/fcaj-workshop/images/avatar.jpg"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"

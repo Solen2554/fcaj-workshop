@@ -9,27 +9,18 @@ chapter: false
 
 ### Student Information:
 &emsp; **Full Name:** Bui Tan Tai
-
 &emsp; **Phone Number:** 0392853341
-
 &emsp; **Email:** taibui2554@gmail.com
 &emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
-
 &emsp; **Major:** Information Technology
-
 &emsp; **Class:** 22DTHD6
-
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
-
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
-
 &emsp; **Internship Duration:** From 17/04/2026 to 30/07/2026
 
-
-![Your profile picture](/images/avatar.jpg)
+<img src="/fcaj-workshop/images/avatar.jpg" alt="Your profile picture" style="width: 220px; height: 280px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px;">
 
 ### Report Content
-
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
 3.  [BlogsPosted](3-BlogsPosted/)
