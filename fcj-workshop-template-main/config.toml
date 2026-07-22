@@ -22,7 +22,7 @@ home = [ "HTML", "RSS", "JSON"]
   disableNextPrev = false
 
   # Avatar config
-  avatar = "avatar.jpg"
+  avatar = "images/avatar.jpg"
 
 [Languages]
 [Languages.en]
