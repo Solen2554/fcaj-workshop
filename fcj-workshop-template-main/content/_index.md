@@ -18,7 +18,7 @@ chapter: false
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 &emsp; **Internship Duration:** From 17/04/2026 to 30/07/2026
 
-<img src="/fcaj-workshop/images/avatar.jpg" alt="Your profile picture" style="width: 220px; height: 280px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px;">
+<img src="images/avatar.jpg" alt="Your profile picture" style="width: 220px; height: 280px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px;">
 
 ### Report Content
 1.  [Worklog](1-Worklog/)

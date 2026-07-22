@@ -1,5 +1,5 @@
 baseURL = "https://solen2554.github.io/fcaj-workshop/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = true
 defaultContentLanguage = "en"
 

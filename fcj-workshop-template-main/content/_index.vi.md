@@ -18,7 +18,7 @@ chapter: false
 &emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 &emsp; **Thời gian thực tập:** From 17/04/2026 to 30/07/2026
 
-<img src="/fcaj-workshop/images/avatar.jpg" alt="Ảnh đại diện của bạn" style="width: 220px; height: 280px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px;">
+<img src="../images/avatar.jpg" alt="Ảnh đại diện của bạn" style="width: 220px; height: 280px; object-fit: cover; border: 1px solid #ccc; border-radius: 4px;">
 
 ### Nội dung báo cáo
 1.  [Worklog](1-Worklog/)
